@@ -1,0 +1,316 @@
+/**
+ * Every style of the project is here
+ */
+
+body {
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
+	background-color: #eee;
+	color: #333;
+	padding-top: 20px;
+	/* overflow: hidden; */
+}
+
+form { padding: 20px; width: 300px; display: block; background: #FAFAFA; margin: 0 auto; border-radius: 0; align-items: center; }
+
+input[type=button] {
+	width: auto;
+	padding: 6px 6px;
+	background: #CCCCCC;
+	border: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
+}
+
+input[type=button]:hover {
+	background: #7387A6;
+	-webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+}
+
+.signature_label {
+
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto 15px;
+
+}
+
+.subtitle {
+	font-size: 15px;
+	color: #7f7e80;
+	font-weight: bold;
+}
+
+.subtitle_div {
+
+	width: 600px;
+	text-align: center;
+	font-size: 13px;
+	margin: 0 auto 15px;
+	color: dimgrey;
+
+}
+
+.red {
+
+	background: #8b0000;
+	
+}
+
+.grey {
+
+	background: #CCCCCC;
+	
+}
+
+.modal {
+
+	width: 300px;
+
+}
+
+#progressbar {
+	border-radius: 13px;
+	/* (height of inner div) / 2 + padding */
+	padding: 3px;
+	width: 200px;
+	margin: 0 auto;
+	border: solid 1px #000000;
+}
+
+#progressbar>div {
+	background-color: #79cc77;
+	width: 0%; /* can be adjusted with javascript */
+	height: 24px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.main_div {
+
+	/*width: 180px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 20px;*/
+
+}
+
+.console {
+
+	display: none;
+	height: 100px;
+	overflow-y: auto;
+	background-color: #eee;
+	border: solid 1px #979797;
+
+}
+
+/* lower and higher bounds display */
+.roundSpanBounds {
+	display: inline-block;
+	border-radius: 1em;
+	background-color: #cccccc;
+	color: black;
+	font-size: 11px;
+	line-height: 14px;
+	vertical-align: middle;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 3px;
+}
+
+/* item count */
+.roundSpanItem {
+	display: inline-block;
+	border-radius: 1em;
+	background-color: #5fa2db;
+	color: black;
+	font-size: 11px;
+	line-height: 14px;
+	vertical-align: middle;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 3px;
+}
+
+.ajax-panel {
+
+	height: 20px;
+
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 10px auto 10px auto;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #666;
+	text-decoration-color: #666;
+}
+
+.welcome_text {
+	font-size: 1.15em;
+	font-weight: bold;
+}
+
+.subtext {
+	font-size: 1em;
+}
+
+.question_text {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.h3_form {
+
+	margin-bottom: 30px;
+
+}
+
+.p_buttons {
+
+	margin-top: 15px;
+
+}
+
+/* begin of dynamic rounded div */
+.container {
+	width: 320px;
+	text-align: center;
+	font-weight: 300;
+	display: block;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+/* content */
+.inner {
+	background: #fff;
+	margin: 0;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 62px;
+	margin-top: -15px;
+}
+
+/* mobile-first -- @media increases the size for bigger screens  */
+
+@media(min-width: 560px){
+	.container {
+		width: 420px;
+	}
+}
+
+@media(min-width: 768px){
+	.container {
+		width: 520px;
+	}
+}
+
+
+
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], input[type=number], select, textarea{
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
+}
+
+/* Style the submit button */
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: 300;
+	font-size: 24px;
+	margin-top: 10px;
+	width: 300px;
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
+	white-space: normal;
+}
+
+input[type=submit]:hover {
+	background: #79cc77;
+	-webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+}
+
+/* Style the container */
+.container {
+	/*border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;*/
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-100 {
+	width: 100%;
+	margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
