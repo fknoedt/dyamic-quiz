@@ -72,15 +72,7 @@ class DynamicQuizRouter extends ApiRouter
     ];
 
     /**
-     * @TODO: implement json format in an array
-     * // array to be converted to JSON and returned as response
-    $aResponse = array(
-    'status'	=> 'success', // success || error || warning
-    'action'	=> '', // possible livetree button actions ($_POST['action'])
-    'msg'		=> '', // main success message to the user
-    'errorMsg'	=> '', // main error message
-    'aNotify'	=> array() // js notifies = array('input_id' => 'message')
-    );
+     * @TODO: implement json standard format
      */
 
     /**

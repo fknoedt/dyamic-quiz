@@ -120,7 +120,7 @@ class Template
 		}
 
 		// cleans output buffering, includes the .tpl.php file and returns it's output
-		ob_clean();
+		@ob_clean();
 
 		ob_start();
 
@@ -156,11 +156,6 @@ class Template
 	 */
 	public function getSelect($data, $id, $index=[], $defaultOption='Select')
 	{
-		// validation
-		if(empty($data)) {
-			throw new \Exception(__METHOD__ . ': empty data');
-		}
-
 		// no columns: convert array from [$key => $value] to ['id' => $key, 'text' => $value]
 		if(empty($index)) {
 			// temporary array

@@ -42,6 +42,7 @@ class QuizController
             case 'new-quiz':
 
                 // get select from DB query
+                // TODO: handle empty select
                 $quizSelect = Quiz::getHtmlSelect($this->template);
 
                 $this->template->addVar('QUIZ_SELECT', $quizSelect);

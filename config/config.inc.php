@@ -16,7 +16,7 @@ ini_set("default_charset", 'utf-8');
 define('SYSADMIN_EMAIL', 'fkwebdev@gmail.com');
 
 // Siteground's IP
-define('PRODUCTION_SERVER_IP','198.46.83.173');
+define('PRODUCTION_SERVER_IP','146.66.69.32');
 
 // views template dir
 define('VIEWS_DIR', $_SERVER['DOCUMENT_ROOT'] . '/../view/tpl/');

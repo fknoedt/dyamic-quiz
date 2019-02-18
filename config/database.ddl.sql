@@ -1,7 +1,8 @@
-/* -------------------------------------------------------------- */
-/* Host     : localhost                                           */
-/* Port     : 3306                                                */
-/* Database : dynamic-quiz                                        */
+
+/**
+ PERFORMANCE DISCLAIMER: beside every FK index (which are automatically created by MySQL)
+ other btree indexes were created for key fields  and some denormalization were adopted
+ */
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
