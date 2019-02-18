@@ -2,7 +2,7 @@
 
 Fully dynamic quiz written from scratch for a code showcase
 
-Single Page Application fed from [https://opentdb.com/](Open TDB)
+Single Page Application fed from [Open TDB](https://opentdb.com/)
 
 Try it: [https://quiz.filipe.knoedt.net/](https://quiz.filipe.knoedt.net/)
 
