@@ -1,8 +1,6 @@
 # Dynamic-Quiz
 
-Fully dynamic quiz written from scratch for a code showcase
-
-Single Page Application fed from [Open TDB](https://opentdb.com/)
+Full Stack Quiz game fed from [Open TDB](https://opentdb.com/)
 
 Try it: [https://quiz.filipe.knoedt.net/](https://quiz.filipe.knoedt.net/)
 
